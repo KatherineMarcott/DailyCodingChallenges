@@ -7,7 +7,7 @@
 
 // P: Both parameters will always be valid positive integers. 
 
-// R: 
+// R: Return result
 
 // E: 
 // maxMultiple(7,100)     => 98
