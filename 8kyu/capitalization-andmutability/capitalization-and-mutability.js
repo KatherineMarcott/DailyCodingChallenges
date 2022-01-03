@@ -11,8 +11,11 @@ Don't worry about numbers, special characters, or non-string types being passed 
 // Take the helper function provided and fix it. Capitalize the first letter of the str provided with the parameter 'word' 
 
 // P: String. From 1 to 10 characters in length. It will never be empty. 
+
 // R: Return the capitalized word. 
+
 // E: Word = 'i' should return 'I'. Word = 'case' should return ='Case'
+
 /* P: function capitalizeWord(word) {
  create variable to hold the result in 
  toUpperCase on the first index of the string
@@ -21,10 +24,21 @@ Don't worry about numbers, special characters, or non-string types being passed 
 }
 */
 
-/* Solution */ 
+/* Solution for Codewars */ 
 
 function capitalizeWord(word) {
     let result = word[0].toUpperCase() + word.slice(1);
     return result; 
   }
 
+/* Solution for Showing on Console in Browser */
+
+function capitalizeWord(word) {
+  let result = word[0].toUpperCase() + word.slice(1);
+  console.log(result); 
+}
+
+/* Tests */ 
+
+capitalizeWord("i");
+capitalizeWord("function")
