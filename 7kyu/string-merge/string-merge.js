@@ -13,9 +13,15 @@
     after the first occurrence of the letter parameter in string 1, replace the rest of the word with the ending of the string 2 after the first occurence of the letter parameter
 } */
 
-// Solution //
+// Solution for Codewars//
 
   function stringMerge(string1, string2, letter){
     `${string1.split(letter, 1)}${string2.slice(string2.indexOf(letter))}`
   }
   
+// Solution for showing on console in Browser // 
+function stringMerge(string1, string2, letter){
+  console.log(`${string1.split(letter, 1)}${string2.slice(string2.indexOf(letter))}`)
+}
+
+stringMerge("Meow", "Ref", "e");
