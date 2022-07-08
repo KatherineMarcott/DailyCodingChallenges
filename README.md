@@ -1,6 +1,8 @@
 # CodeWars
 Daily Coding Exercises to sharpen problem solving skills
 
+# Leetcode
+Daily Coding Exercises to sharpen problem solving skills
 
 # How It's Made:
 
